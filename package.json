@@ -1,0 +1,36 @@
+{
+  "name": "@cognibox/eslint-vue-require-component-key",
+  "version": "1.0.1",
+  "description": "Require key on component elements",
+  "main": "lib/index.js",
+  "scripts": {
+    "lint": "node_modules/eslint/bin/eslint.js .",
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cognibox/eslint-vue-require-component-key.git"
+  },
+  "keywords": [
+    "eslint",
+    "no",
+    "super",
+    "async"
+  ],
+  "author": "Cognibox",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cognibox/eslint-vue-require-component-key/issues"
+  },
+  "homepage": "https://github.com/cognibox/eslint-vue-require-component-key#readme",
+  "devDependencies": {
+    "@cognibox/eslint-config-cbx": "^1.0.1",
+    "chai": "^4.2.0",
+    "eslint": "^6.4.0",
+    "karma": "^4.3.0",
+    "mocha": "^6.2.0"
+  },
+  "dependencies": {
+    "eslint-plugin-vue": "^6.1.2"
+  }
+}
