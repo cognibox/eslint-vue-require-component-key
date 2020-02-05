@@ -3,7 +3,7 @@ const requireComponentKey = require('../lib/index').rules['vue/require-component
 
 const ruleTester = new RuleTester({
   parser: require.resolve('vue-eslint-parser'),
-  parserOptions: { ecmaVersion: 2017 }
+  parserOptions: { ecmaVersion: 2017 },
 });
 
 ruleTester.run('vue/require-component-key', requireComponentKey, {
