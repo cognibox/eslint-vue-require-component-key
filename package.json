@@ -1,6 +1,6 @@
 {
   "name": "@cognibox/eslint-vue-require-component-key",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Require key on component elements",
   "main": "lib/index.js",
   "scripts": {
